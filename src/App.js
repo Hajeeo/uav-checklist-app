@@ -1934,7 +1934,7 @@ export default function App() {
                          <div className="flex items-center space-x-3">
                             <button onClick={() => setIsSidebarOpen(true)} className="p-2 rounded-full hover:bg-gray-100"><Menu className="w-6 h-6 text-gray-600" /></button>
                             <Plane className="w-7 h-7 md:w-8 md:h-8 text-blue-600" />
-                            <h1 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-800">UAV Flight Ops</h1>
+                            <h1 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-800">UAV Ops</h1>
                         </div>
                         <div className="flex items-center space-x-4">
                            <div className={`flex items-center space-x-2 text-sm px-3 py-1 rounded-full ${isOnline ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-700'}`}><div className={`w-2 h-2 rounded-full ${isOnline ? 'bg-green-500' : 'bg-red-500'}`}></div><span>{isOnline ? 'Online' : 'Offline'}</span></div>
